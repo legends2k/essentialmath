@@ -109,6 +109,7 @@
     <Lib>
       <OutputFile>..\Libs\OGLRelease\IvGraphics.lib</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalDependencies>legacy_stdio_definitions.lib</AdditionalDependencies>
     </Lib>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -145,6 +146,7 @@ copy .\OGL\Iv*.h ..\Includes\OGL
     <Lib>
       <OutputFile>..\Libs\OGLDebug\IvGraphics.lib</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalDependencies>legacy_stdio_definitions.lib</AdditionalDependencies>
     </Lib>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
